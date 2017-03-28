@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<!-- Chieh-Huang Chen -->
+<html>
+	<head>
+		<title>
+			MINESWEEPER
+		</title>
+		<link rel = "stylesheet" type = "text/css" href = "styling.css">
+		<script type = "text/javascript" src="variables.js"></script>
+		<script type = "text/javascript" src="numdisplays.js"></script>
+		<script type = "text/javascript" src="Creatingboxes.js"></script>
+		<script type = "text/javascript" src="creatingconditions.js"></script>
+		<script type = "text/javascript" src="zeroconditions3.js"></script>
+		<script type = "text/javascript" src="flagged.js"></script>
+		<script type = "text/javascript" src="winorlose.js"></script>
+	</head>
+	<body>
+		<div id ="BEFORE">
+			<div id ="title">MINESWEEPER</div>
+			<div>
+				<span><button onclick ="easygame()" id ="beginning">CLICK HERE TO BEGIN</button></span>
+			</div>
+		</div>
+		<div id = "MAIN">
+			<div id = "minescreen">
+			</div>
+			<button onclick = "reset()" id ="restarting">RESTART</button>
+			<!-- <button onclick = "displaynum(conditionlist);">ADMIN:DISPLAY MINES</button> -->
+		</div>
+		<a href = "http://windows.microsoft.com/en-us/windows/minesweeper-how-to">For more information, click here.</a>
+	</body>
+	<script>
+	initalization();
+	</script>
+</html>
