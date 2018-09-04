@@ -1,3 +1,16 @@
 # Minesweeper
-One of the very first projects that I created back in my junior year of high school and the most challenging projects that I did because
-I avoided checking for each and every single boxes for whitespace and developed a flood fill algorithm on my own without help. 
+## A Minesweeper game on a website
+This website was one of my projects in Web Development class in high school. I built this website on JavaScript in 2015.
+
+## What I have learned
+- JavaScript
+- Managing states in the game
+
+## What I have accomplished
+- Creating a Minesweeper Game on JavaScript.
+
+## Improvements that can be on this Project
+- Make this project object-oriented.
+- Restructure the project files and images.
+- Improve on detecting hidden boxes by Memoization.
+
